@@ -28,14 +28,16 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(0, 255, 255);</string>
     </property>
     <property name="text">
-     <string>Lista de Produtos</string>
+     <string>Lista Produtos</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
@@ -49,14 +51,16 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 0);</string>
     </property>
     <property name="text">
-     <string>Lista de Vendas</string>
+     <string>Lista Vendas</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
@@ -70,11 +74,14 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
+     <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Realizar Venda</string>
@@ -91,11 +98,14 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 255);</string>
+     <string notr="true">background-color: rgb(255, 0, 255);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Cadastrar Produto</string>
@@ -113,6 +123,8 @@
     <property name="font">
      <font>
       <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">

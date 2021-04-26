@@ -29,6 +29,8 @@
     <property name="font">
      <font>
       <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -95,6 +97,12 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 0);</string>
     </property>
@@ -111,8 +119,15 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
+     <string notr="true">background-color: rgb(255, 0, 0);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>EXCLUIR</string>
@@ -127,8 +142,15 @@
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 255);</string>
+     <string notr="true">background-color: rgb(0, 0, 255);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>VOLTAR</string>
@@ -156,8 +178,15 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 255);</string>
+     <string notr="true">background-color: rgb(255, 0, 255);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>PESQUISAR</string>

@@ -115,6 +115,8 @@
     <property name="font">
      <font>
       <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -132,11 +134,13 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 255, 255);</string>
+     <string notr="true">background-color: rgb(255, 255, 0);</string>
     </property>
     <property name="text">
      <string>Vender</string>
@@ -255,11 +259,14 @@
     </property>
     <property name="font">
      <font>
-      <pointsize>12</pointsize>
+      <pointsize>8</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 255);</string>
+     <string notr="true">background-color: rgb(0, 0, 255);
+color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
      <string>Voltar</string>

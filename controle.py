@@ -23,6 +23,9 @@ def procurar_produto():
         # pegar dados da linha
         produto = cursor.fetchall()
         if len(produto) == 0:
+            # Limpar dados na tabela da tela
+            lista_produtos.tableWidget.setRowCount(0)
+            # feedback para o usuario 
             print('Não foi possível encontrar o Produto')
         else:
             # Limpar dados na tabela da tela e deixar apenas uma linha
@@ -58,6 +61,9 @@ def procurar_venda():
         # pegar dados da linha
         produto = cursor.fetchall()
         if len(produto) == 0:
+            # Limpar dados na tabela da tela
+            lista_vendas.tableWidget.setRowCount(0)
+            # feedback para o usuario
             print('Não foi possível encontrar o Produto')
         else:
             # Limpar dados na tabela da tela e deixar apenas uma linha
@@ -117,8 +123,6 @@ def carregar_campos_tabela_tela_editar_produto():
     tela_editar_produto.lineEdit_2.setText(str(produto[0][0]))
     tela_editar_produto.lineEdit_3.setText(str(produto[0][1]))
     tela_editar_produto.lineEdit_4.setText(str(produto[0][2]))
-
-#global n_linha
 
 
 def editar_produto():
